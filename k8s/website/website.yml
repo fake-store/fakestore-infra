@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: ghcr.io/fake-store/fakestore-website:sha-df68f61
+          image: ghcr.io/fake-store/fakestore-website:sha-42470e6
           ports:
             - containerPort: 8080
           envFrom:
